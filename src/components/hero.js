@@ -208,18 +208,18 @@ export default function Hero() {
                 </div>
               </div>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Latest on the Blog
+                Yang paling baru!
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-2 sm:text-2xl lg:text-lg xl:text-2xl">
-                navigating my early twenties:{" "}
-                <span className="text-indigo-600"> heartbreak</span>
+              Soroti Kasus Wadas, Greenpeace: 
+                <span className="text-indigo-600"> Potret Paling Nyata Kekerasan Negara Setelah 24 Tahun Reformasi</span>
               </p>
               <div  className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <button
                   type="submit"
                   className="w-full bg-indigo-600 border border-transparent rounded-md shadow-sm py-3 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-indigo-500"
                 >
-                  View
+                  Liat Selengkapnya
                 </button>
               </div>
             </div>
@@ -273,7 +273,7 @@ export default function Hero() {
                   <span className="sr-only">Watch our video to learn more</span>
                   <img
                     className="w-full"
-                    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    src="./img/9.jpeg"
                     alt=""
                   />
                   <span
