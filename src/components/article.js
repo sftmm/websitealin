@@ -1,57 +1,57 @@
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
   {
-    title: "Boost your conversion rate",
+    title: "Soroti Kasus Wadas, Greenpeace: Potret Paling Nyata Kekerasan Negara Setelah 24 Tahun Reformasi",
     href: "#",
     category: { name: "Article", href: "#" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
+      "Aktivis Greenpeace Indonesia Khalisa Khalid menilai penanganan terhadap lingkungan dan sumber daya alam di bawah kendali pemerintahan Presiden Jokowi-Wapres Maruf Amin malah mengalami degradasi setelah reformasi yang kini sudah berusia 24 tahun.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    "./img/5.jpeg",
     readingTime: "6 min",
     author: {
-      name: "Roel Aufderehar",
+      name: "Khalisah Khalid",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   {
-    title: "How to use search engine optimization to drive sales",
+    title: "Limbah Batu Bara dan Sawit Tak Masuk Kategori B3, Walhi: Ini yang Dikhawatirkan dari UU Cipta Kerja",
     href: "#",
-    category: { name: "Video", href: "#" },
+    category: { name: "Article", href: "#" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
+      "Ketua Desk Politik Wahana Lingkungan Hidup Indonesia (Walhi) Khalisa Khalid mengatakan, pihaknya sudah mengkhawatirkan sejak awal bahwa disahkannya Undang-Undang (UU) Cipta Kerja akan berdampak pada instrumen perlindungan lingkungan hidup",
     date: "Mar 10, 2020",
     datetime: "2020-03-10",
     imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    "./img/6.jpeg",
     readingTime: "4 min",
     author: {
-      name: "Brenna Goyette",
+      name: "Khalisah Khalid",
       href: "#",
       imageUrl:
         "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   {
-    title: "Improve your customer experience",
+    title: "Ekosida: Kejahatan Lingkungan yang Berpotensi Melahirkan Genosida",
     href: "#",
-    category: { name: "Case Study", href: "#" },
+    category: { name: "Article", href: "#" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
+      "Ada istilah yang terus dipopulerkan untuk kejahatan lingkungan hidup, yaitu ekosida atau ecoside. Penamaan secara khusus itu penting, untuk memberi tekanan bahwa perusakan lingkungan adalah sebuah kejahatan. Namun, menurut Kepala Desk Politik, Wahana Lingkungan Hidup (Walhi) Nasional, Khalisah Khalid, itu bukan kampanye yang mudah",
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
     imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    "./img/7.jpeg",
     readingTime: "11 min",
     author: {
-      name: "Daniela Metz",
+      name: "Khalisah Khalid",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
 ];

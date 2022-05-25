@@ -7,6 +7,7 @@ import Hero from './components/hero';
 import Article from './components/article';
 import Picture from './components/pictures';
 import Footer from './components/footer';
+import SideArticle from './components/sidearticle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Hero />
     <Article />
     <Picture />
+    <SideArticle />
     <Footer />
   </React.StrictMode>
 );
