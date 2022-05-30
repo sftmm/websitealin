@@ -55,8 +55,8 @@ export default function SideArticle(props) {
                 src="./img/8.jpeg"
                 alt=""
               />
-              <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+              <div className="absolute inset-0 bg-orange-500 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-600 via-orange-600 opacity-90" />
               <div className="relative px-8">
                 <div>
                   <img
@@ -68,7 +68,7 @@ export default function SideArticle(props) {
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <svg
-                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-400"
+                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-orange-400"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -76,14 +76,14 @@ export default function SideArticle(props) {
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p className="relative">
-                      Greenpeace hadir karena bumi yang rapuh ini perlu suara.
+                      Aktivis Lingkungan hadir karena bumi yang rapuh ini perlu suara.
                       Butuh solusi. Butuh perubahan. Butuh aksi.
                     </p>
                   </div>
 
                   <footer className="mt-4">
-                    <p className="text-base font-semibold text-indigo-200">
-                      Greenpeace, Indonesia
+                    <p className="text-base font-semibold text-orange-200">
+                      Khalisa Khalid, Indonesia
                     </p>
                   </footer>
                 </blockquote>
@@ -96,7 +96,7 @@ export default function SideArticle(props) {
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-              Visi Greenpeace
+              Visi
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
               <p className="text-lg">
@@ -125,7 +125,7 @@ export default function SideArticle(props) {
           </div>
 
           {/* Stats section */}
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <dl className="grid grid-cols-2 gap-x-4 gap-y-8">
               {stats.map((stat) => (
                 <div
@@ -142,13 +142,13 @@ export default function SideArticle(props) {
               ))}
             </dl>
             <div className="mt-10">
-              <a href="#" className="text-base font-medium text-indigo-600">
+              <a href="#" className="text-base font-medium text-orange-600">
                 {" "}
                 Learn more about how we're changing the world{" "}
                 <span aria-hidden="true">&rarr;</span>{" "}
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

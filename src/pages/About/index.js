@@ -13,11 +13,11 @@ export default function About() {
             <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
             <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
               <div>
-                <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+                <h2 className="text-base text-orange-600 font-semibold tracking-wide uppercase">
                   Halooo
                 </h2>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  Berkenalan dengan <span className="text-indigo-600">Khalisa Khalid</span>
+                  Berkenalan dengan <span className="text-orange-600">Khalisa Khalid</span>
                 </h3>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function About() {
                     semenjak jadi aktivis Mapala tahun 1997.
                   </p>
                 </div>
-                <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                <div className="mt-5 prose prose-orange text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
                   <p>
                     Jurusan Komunikasi dan Penyiaran Islam (KPI)Fakultas Dakwah
                     IAIN Syarif Hidayatullah Ciputat (kini UIN). Ia pernah

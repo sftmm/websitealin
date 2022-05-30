@@ -21,11 +21,10 @@ ReactDOM.render(
 
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/articledetail" element={<ArticlePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
-
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/articledetail" element={<ArticlePage />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   </React.StrictMode>,

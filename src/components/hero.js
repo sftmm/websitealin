@@ -61,9 +61,9 @@ export default function Hero() {
               <h1>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                   <span className="block text-gray-900">
-                    <span className="text-indigo-600">Khalisah</span> Khalid
+                    <span className="text-orange-500">Khalisah</span> Khalid
                   </span>
-                  {/* <span className="block text-indigo-600">online business</span> */}
+                  <span className="block text-2xl font-normal text-gray-700">sang<span className="text-orange-500"> perempuan</span> </span>
                 </span>
               </h1>
               <div className="flex items-center mt-2">
@@ -72,7 +72,7 @@ export default function Hero() {
                   <h4 className="sr-only">Reviews</h4>
                   <div className="flex items-center">
                     <div className="flex items-center">
-                      <p className="text-lg text-indigo-600 sm:text-xl">
+                      <p className="text-lg text-orange-500 sm:text-xl">
                         Penulis
                       </p>
                     </div>
@@ -93,7 +93,7 @@ export default function Hero() {
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-2 sm:text-2xl lg:text-lg xl:text-2xl">
                 Soroti Kasus Wadas, Greenpeace:
-                <span className="text-indigo-600">
+                <span className="text-orange-500">
                   {" "}
                   Potret Paling Nyata Kekerasan Negara Setelah 24 Tahun
                   Reformasi
@@ -102,7 +102,7 @@ export default function Hero() {
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <Link to="/articledetail"
                   type="submit"
-                  className="w-full bg-indigo-600 border border-transparent rounded-md shadow-sm py-3 px-4 text-base text-center font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-indigo-500"
+                  className="w-full bg-orange-500 border border-transparent rounded-md shadow-sm py-3 px-4 text-base text-center font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-orange-500"
                 >
                   Lihat Selengkapnya
                 </Link>
@@ -153,7 +153,7 @@ export default function Hero() {
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <button
                   type="button"
-                  className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
                 >
                   <span className="sr-only">Watch our video to learn more</span>
                   <img className="w-full" src="./img/9.jpeg" alt="" />
@@ -162,7 +162,7 @@ export default function Hero() {
                     aria-hidden="true"
                   >
                     <svg
-                      className="h-20 w-20 text-indigo-500"
+                      className="h-20 w-20 text-orange-500"
                       fill="currentColor"
                       viewBox="0 0 84 84"
                     >

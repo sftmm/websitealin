@@ -70,7 +70,7 @@ export default function Article(props) {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
+                  <p className="text-sm font-medium text-orange-500">
                     <a href={post.category.href} className="hover:underline">
                       {post.category.name}
                     </a>
@@ -123,7 +123,7 @@ Article.defaultProps = {
       title:
         "Soroti Kasus Wadas, Greenpeace: Potret Paling Nyata Kekerasan Negara Setelah 24 Tahun Reformasi",
       href: "#",
-      category: { name: "Article", href: "#" },
+      category: { name: "Artikel", href: "#" },
       description:
         "Aktivis Greenpeace Indonesia Khalisa Khalid menilai penanganan terhadap lingkungan dan sumber daya alam di bawah kendali pemerintahan Presiden Jokowi-Wapres Maruf Amin malah mengalami degradasi setelah reformasi yang kini sudah berusia 24 tahun.",
       date: "Mar 16, 2020",
@@ -134,14 +134,14 @@ Article.defaultProps = {
         name: "Khalisah Khalid",
         href: "#",
         imageUrl:
-          "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "./img/khalisakhalid.jpeg",
       },
     },
     {
       title:
         "Limbah Batu Bara dan Sawit Tak Masuk Kategori B3, Walhi: Ini yang Dikhawatirkan dari UU Cipta Kerja",
       href: "#",
-      category: { name: "Article", href: "#" },
+      category: { name: "Artikel", href: "#" },
       description:
         "Ketua Desk Politik Wahana Lingkungan Hidup Indonesia (Walhi) Khalisa Khalid mengatakan, pihaknya sudah mengkhawatirkan sejak awal bahwa disahkannya Undang-Undang (UU) Cipta Kerja akan berdampak pada instrumen perlindungan lingkungan hidup",
       date: "Mar 10, 2020",
@@ -152,14 +152,14 @@ Article.defaultProps = {
         name: "Khalisah Khalid",
         href: "#",
         imageUrl:
-          "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "./img/khalisakhalid.jpeg",
       },
     },
     {
       title:
         "Ekosida: Kejahatan Lingkungan yang Berpotensi Melahirkan Genosida",
       href: "#",
-      category: { name: "Article", href: "#" },
+      category: { name: "Artikel", href: "#" },
       description:
         "Ada istilah yang terus dipopulerkan untuk kejahatan lingkungan hidup, yaitu ekosida atau ecoside. Penamaan secara khusus itu penting, untuk memberi tekanan bahwa perusakan lingkungan adalah sebuah kejahatan. Namun, menurut Kepala Desk Politik, Wahana Lingkungan Hidup (Walhi) Nasional, Khalisah Khalid, itu bukan kampanye yang mudah",
       date: "Feb 12, 2020",
@@ -170,7 +170,7 @@ Article.defaultProps = {
         name: "Khalisah Khalid",
         href: "#",
         imageUrl:
-          "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "./img/khalisakhalid.jpeg",
       },
     },
   ],
