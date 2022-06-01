@@ -53,14 +53,14 @@ export default function Header(props) {
                 <Link to={item.to}>{item.name}</Link>
               ))} */}
               <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                <Link 
-                  to="about"
+                <Link
+                  to="/about"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Tentang Saya
                 </Link>
                 <Link
-                  to="gallery"
+                  to="/gallery"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Galeri
@@ -97,26 +97,28 @@ export default function Header(props) {
                         <Popover.Panel className="absolute left-1/2 z-10 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {resources.map((item) => (
-                                <a
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                >
-                                  <item.icon
-                                    className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                                    aria-hidden="true"
-                                  />
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">
-                                      {item.name}
-                                    </p>
-                                    <p className="mt-1 text-sm text-gray-500">
-                                      {item.description}
-                                    </p>
+                              <div>
+                                {resources.map((item) => (
+                                  <div
+                                    key={item.name}
+                                    // to={item.to}
+                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                  >
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                      aria-hidden="true"
+                                    />
+                                    <Link to={item.to}>
+                                      <p className="text-base font-medium text-gray-900">
+                                        {item.name}
+                                      </p>
+                                      <p className="mt-1 text-sm text-gray-500">
+                                        {item.description}
+                                      </p>
+                                    </Link>
                                   </div>
-                                </a>
-                              ))}
+                                ))}
+                              </div>
                             </div>
                             <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
                               <div>
@@ -206,7 +208,7 @@ export default function Header(props) {
                     {features.map((item) => (
                       <a
                         key={item.name}
-                        href={item.href}
+                        to={item.to}
                         className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                       >
                         <item.icon
@@ -223,30 +225,28 @@ export default function Header(props) {
               </div>
               <div className="py-6 px-5 space-y-6">
                 <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <a
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  <Link
+                    to="about"
+                    className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
-                    About Me
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    Tentang Saya
+                  </Link>
+                  <Link
+                    to="gallery"
+                    className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
-                    Gallery
-                  </a>
+                    Galeri
+                  </Link>
                   {resources.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
+                    <Link
+                      to={item.to}
                       className="text-base font-medium text-gray-900 hover:text-gray-700"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
-                <div>
+                {/* <div>
                   <a
                     href="#"
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
@@ -262,7 +262,7 @@ export default function Header(props) {
                       Sign in
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </Popover.Panel>
@@ -276,53 +276,29 @@ Header.defaultProps = {
   features: [
     {
       name: "About Me",
-      to: "about",
+      to: "/about",
       description:
         "Get a better understanding of where your traffic is coming from.",
       icon: ChartBarIcon,
     },
     {
       name: "A",
-      href: "#",
+      to: "/gallery",
       description: "Speak directly to your customers in a more meaningful way.",
       icon: CursorClickIcon,
     },
-    {
-      name: "Security",
-      href: "#",
-      description: "Your customers' data will be safe and secure.",
-      icon: ShieldCheckIcon,
-    },
-    {
-      name: "Integrations",
-      href: "#",
-      description: "Connect with third-party tools that you're already using.",
-      icon: ViewGridIcon,
-    },
-    {
-      name: "Automations",
-      href: "#",
-      description:
-        "Build strategic funnels that will drive your customers to convert",
-      icon: RefreshIcon,
-    },
   ],
-  callsToAction: [
-    { name: "Watch Demo", href: "#", icon: PlayIcon },
-    { name: "Contact Sales", href: "#", icon: PhoneIcon },
-  ],
+
   resources: [
     {
       name: "Artikel Serius",
-      description:
-        "Get all of your questions answered in our forums or contact support.",
-      href: "#",
+      description: "Berisi artikel yg serius?",
+      to: "/about",
       icon: SupportIcon,
     },
     {
       name: "Artikel sastra",
-      description:
-        "Learn how to maximize our platform to get the most out of it.",
+      description: "Kumpulan karya sastra",
       href: "#",
       icon: BookmarkAltIcon,
     },

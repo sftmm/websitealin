@@ -7,15 +7,14 @@ export default function Gallery(props) {
   const { pictures } = props;
   return (
     <>
-      <div className="relative pt-6 pb-4 sm:pb-24 lg:pb-32 ">
+      <div className="relative pt-6 pb-4 sm:pb-24 lg:pb-12 ">
         <Header />
-        <div className="relative py-4 bg-white overflow-hidden pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 mt-4">
+        <div className="relative py-4 bg-white overflow-hidden pt-6 pb-4 px-4 sm:px-6 lg:pt-6 lg:pb-8 lg:px-8 mt-4">
           <div className="bg-white">
-            <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-              <h2 id="products-heading" className="sr-only">
-                Products
+            <div className="max-w-2xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+              <h2 className="text-3xl text-center tracking-tight font-extrabold text-gray-900 sm:text-4xl mb-8">
+                Galeri
               </h2>
-
               <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:gap-x-8">
                 {pictures.map((picture) => (
                   <a key={picture.id} href={picture.href} className="group">
@@ -28,7 +27,6 @@ export default function Gallery(props) {
                     </div>
                     <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
                       <h3>{picture.name}</h3>
-                      <p>{picture.price}</p>
                     </div>
                     <p className="mt-1 text-sm italic text-gray-500">
                       {picture.description}
@@ -49,20 +47,22 @@ Gallery.defaultProps = {
   pictures: [
     {
       id: 1,
-      name: "Focus Paper Refill",
+      name: "Gunung Everest",
       href: "#",
-      price: "$13",
-      description: "3 sizes available",
+
+      description:
+        "Gunung Everest (bahasa Inggris: Mount Everest) adalah gunung tertinggi di dunia (jika diukur dari permukaan laut). Rabung puncaknya menandakan perbatasan ...",
       imageSrc: "./img/13.jpeg",
       imageAlt:
         "Person using a pen to cross a task off a pictureivity paper card.",
     },
     {
       id: 2,
-      name: "Focus Card Holder",
+      name: "Danau Toba",
       href: "#",
-      price: "$64",
-      description: "Walnut",
+
+      description:
+        "Danau Toba terletak di Sumatra Utara dan menjadi salah satu dari keajaiban alam di dunia. Danau ini adalah danau terbesar di Asia Tenggara dan juga dikenal ...",
       imageSrc: "./img/1.jpeg",
       imageAlt: "Paper card sitting upright in walnut card holder on desk.",
     },
@@ -70,18 +70,20 @@ Gallery.defaultProps = {
       id: 3,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
+
+      description:
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum....",
       imageSrc: "./img/2.jpg",
       imageAlt:
-        "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     },
     {
       id: 4,
-      name: "Focus Carry Case",
+      name: "Cappadocia",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
+
+      description:
+        "Cappadocia adalah wilayah kuno yang terletak di Turki tengah selatan atau tenggara Ankara. Cappadocia berada di dataran tinggi yang terjal di ...",
       imageSrc: "./img/11.jpeg",
       imageAlt:
         "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
@@ -90,7 +92,7 @@ Gallery.defaultProps = {
       id: 5,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
+
       description: "Heather Gray",
       imageSrc: "./img/12.jpeg",
       imageAlt:
@@ -100,41 +102,45 @@ Gallery.defaultProps = {
       id: 6,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
-      imageSrc: "./img/16.jpeg",
+
+      description:
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum....",
+      imageSrc: "./img/2.jpg",
       imageAlt:
-        "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     },
     {
       id: 7,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
-      imageSrc: "./img/14.jpeg",
+
+      description:
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum....",
+      imageSrc: "./img/2.jpg",
       imageAlt:
-        "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     },
     {
       id: 8,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
-      imageSrc: "./img/15.jpg",
+
+      description:
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum....",
+      imageSrc: "./img/2.jpg",
       imageAlt:
-        "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     },
     {
       id: 9,
       name: "Focus Carry Case",
       href: "#",
-      price: "$32",
-      description: "Heather Gray",
-      imageSrc: "./img/3.jpeg",
+
+      description:
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum....",
+      imageSrc: "./img/2.jpg",
       imageAlt:
-        "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+        "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     },
     // More pictures...
   ],

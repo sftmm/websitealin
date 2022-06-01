@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 export default function Article(props) {
   const { posts } = props;
@@ -71,18 +72,18 @@ export default function Article(props) {
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-orange-500">
-                    <a href={post.category.href} className="hover:underline">
+                    <Link to={post.category.to} className="hover:underline">
                       {post.category.name}
-                    </a>
+                    </Link>
                   </p>
-                  <a href={post.href} className="block mt-2">
+                  <Link to={post.to} className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       {post.title}
                     </p>
                     <p className="mt-3 text-base text-gray-500">
                       {post.description}
                     </p>
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
@@ -122,8 +123,8 @@ Article.defaultProps = {
     {
       title:
         "Soroti Kasus Wadas, Greenpeace: Potret Paling Nyata Kekerasan Negara Setelah 24 Tahun Reformasi",
-      href: "#",
-      category: { name: "Artikel", href: "#" },
+      to: "articledetail",
+      category: { name: "Artikel", to: "articledetail", },
       description:
         "Aktivis Greenpeace Indonesia Khalisa Khalid menilai penanganan terhadap lingkungan dan sumber daya alam di bawah kendali pemerintahan Presiden Jokowi-Wapres Maruf Amin malah mengalami degradasi setelah reformasi yang kini sudah berusia 24 tahun.",
       date: "Mar 16, 2020",
@@ -140,8 +141,8 @@ Article.defaultProps = {
     {
       title:
         "Limbah Batu Bara dan Sawit Tak Masuk Kategori B3, Walhi: Ini yang Dikhawatirkan dari UU Cipta Kerja",
-      href: "#",
-      category: { name: "Artikel", href: "#" },
+        to: "articledetail",
+      category: { name: "Artikel", to: "articledetail", },
       description:
         "Ketua Desk Politik Wahana Lingkungan Hidup Indonesia (Walhi) Khalisa Khalid mengatakan, pihaknya sudah mengkhawatirkan sejak awal bahwa disahkannya Undang-Undang (UU) Cipta Kerja akan berdampak pada instrumen perlindungan lingkungan hidup",
       date: "Mar 10, 2020",
@@ -158,8 +159,8 @@ Article.defaultProps = {
     {
       title:
         "Ekosida: Kejahatan Lingkungan yang Berpotensi Melahirkan Genosida",
-      href: "#",
-      category: { name: "Artikel", href: "#" },
+        to: "articledetail",
+      category: { name: "Artikel", to: "articledetail", },
       description:
         "Ada istilah yang terus dipopulerkan untuk kejahatan lingkungan hidup, yaitu ekosida atau ecoside. Penamaan secara khusus itu penting, untuk memberi tekanan bahwa perusakan lingkungan adalah sebuah kejahatan. Namun, menurut Kepala Desk Politik, Wahana Lingkungan Hidup (Walhi) Nasional, Khalisah Khalid, itu bukan kampanye yang mudah",
       date: "Feb 12, 2020",
