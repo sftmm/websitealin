@@ -2,7 +2,7 @@
   "name": "websitealin",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://websitealin.vercel.app"
+  "proxy": "https://websitealin.vercel.app",
   "homepage": ".",
   "dependencies": {
     "@headlessui/react": "^1.6.2",
