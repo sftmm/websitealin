@@ -8,8 +8,8 @@ export default function About() {
     <>
       <div className="bg-white relative pt-6 pb-16 sm:pb-24 lg:pb-32 ">
         <Header />
-        <div className="relative py-16 bg-white overflow-hidden pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-          <div className="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div className="relative  mx-auto max-w-7xl py-2 bg-white overflow-hidden pt-8 pb-10 px-4 sm:px-6 lg:pt-8 lg:pb-10 lg:px-8 mt-4">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
             <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
               <div>

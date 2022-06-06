@@ -7,7 +7,7 @@ export default function ArticlePage() {
     <>
       <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32 ">
         <Header />
-        <div className="relative  mx-auto max-w-7xl py-16 bg-white overflow-hidden pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 mt-4">
+        <div className="relative  mx-auto max-w-7xl py-6 bg-white overflow-hidden pt-8 pb-10 px-4 sm:px-6 lg:pt-8 lg:pb-10 lg:px-8 mt-4">
           <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
             <div
               className="relative h-full text-lg max-w-prose mx-auto"

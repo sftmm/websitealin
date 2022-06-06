@@ -9,7 +9,7 @@ export default function Gallery(props) {
     <>
       <div className="relative pt-6 pb-4 sm:pb-24 lg:pb-12 ">
         <Header />
-        <div className="relative py-4 bg-white overflow-hidden pt-6 pb-4 px-4 sm:px-6 lg:pt-6 lg:pb-8 lg:px-8 mt-4">
+        <div className="relative  mx-auto max-w-7xl py-6 bg-white overflow-hidden pt-8 pb-10 px-4 sm:px-6 lg:pt-8 lg:pb-10 lg:px-8 mt-4">
           <div className="bg-white">
             <div className="max-w-2xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
               <h2 className="text-3xl text-center tracking-tight font-extrabold text-gray-900 sm:text-4xl mb-8">
